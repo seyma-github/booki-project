@@ -4,6 +4,7 @@
         <title>Booki</title>
         <meta charset="utf-8">
         <link type="text/css" rel="stylesheet" href="style.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap" rel="stylesheet">
@@ -13,24 +14,46 @@
     <body> 
         <header>
             <div class="intro">
-                <img src="/Users/seyma/Desktop/booki/images/logo/Booki.png" alt="logo">
+                <img src="./images/logo/Booki.png" alt="logo">
                 <div class="menu"> 
                     <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
+                        <li><a href="#accommodation">Hébergements</a></li>
+                        <li><a href="#activities">Activités</a></li>
                     </ul>                     
                 </div>
             </div> 
             <nav>
                 <div class="slogan">
-                    <h4>Trouvez votre hébergement pour des vacance de rêve</h4>
+                    <h1>Trouvez votre hébergement pour des vacance de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>  
                 </div>
                 <div id="search">
                     <i class="fas fa-map-marker-alt"></i>
-                    <input class="box" type="search" placeholder="Marseille, France">  
+                    <input class="box" type="text" placeholder="Marseille, France">  
                     <button class="search-word">Rechercher</button>
+                    <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
+                <div class="filters">
+                    <div>Filtres</div>
+                    <div class="filter-1-2">
+                        <div class="filter-1">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                         <p>Économique</p>
+                         </div>
+                        <div class="filter-2">
+                            <i class="fa-solid fa-child-reaching"></i>
+                            <p>Familial</p>
+                        </div>
+                    </div>
+                    <div class="filter-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <p>Romantique</p>
+                    </div>
+                    <div class="filter-4">
+                        <i class="fa-solid fa-dog"></i>
+                        <p>Animaux autorisés</p>
+                    </div> 
+                </div>  
             </nav>
         </header> 
     </body>
